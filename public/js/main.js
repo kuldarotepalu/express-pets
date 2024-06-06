@@ -4,7 +4,6 @@ async function start() {
 
   const ourTemperature = weatherData.properties.periods[0].temperature
   document.querySelector("#temperature-output").textContent = ourTemperature
-
 }
 
 start()
@@ -32,4 +31,19 @@ function handleButtonClick(e) {
       el.style.display = "none"
     }
   })
+}
+
+document.querySelector(".form-overlay").style.display = ""
+
+function openOverlay(el) {
+  document.querySelector(".form-photo p strong").textContent = el.closest(".pet-card").querySelector(".pet-name").textContent
+  document.querySelector(".form-photo img").src = el.closest(".pet-card").querySelector(".pet-card-photo img").src
+
+  document.querySelector(".form-overlay").classList.add("form-overlay--is-visible")
+}
+
+document.querySelector(".close-form-overlay").addEventListener("click", closeOverlay)
+
+function closeOverlay() {
+  document.querySelector(".form-overlay").classList.remove("form-overlay--is-visible")
 }
