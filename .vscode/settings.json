@@ -1,0 +1,39 @@
+{
+  "debug.javascript.codelens.npmScripts": "never",
+  "editor.fontFamily": "'Monaco', monospace",
+  "terminal.integrated.fontFamily": "'Monaco', monospace",
+  "editor.fontSize": 16,
+  "terminal.integrated.fontSize": 14,
+  "window.zoomLevel": 1.25,
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "breadcrumbs.enabled": false,
+  "workbench.startupEditor": "none",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "prettier.semi": false,
+  "prettier.printWidth": 9999,
+  "prettier.trailingComma": "none",
+  "prettier.quoteProps": "preserve",
+  "prettier.arrowParens": "avoid",
+  "files.associations": {
+    // "*.js": "javascriptreact",
+    "*.css": "tailwindcss"
+  },
+  // "editor.quickSuggestions": {
+  //   "strings": true
+  // },
+  "workbench.iconTheme": null,
+  "workbench.layoutControl.enabled": false,
+  "window.commandCenter": false,
+  // "editor.hover.enabled": false
+  "telemetry.telemetryLevel": "off",
+  // "editor.parameterHints.enabled": false,
+  "extensions.ignoreRecommendations": true,
+  "security.workspace.trust.enabled": false,
+  // "editor.guides.indentation": false,
+  "workbench.editor.empty.hint": "hidden",
+  "html.autoClosingTags": false,
+  "editor.stickyScroll.enabled": false
+}
